@@ -27,14 +27,14 @@ const DashBoard3Chart = () => {
 
     // Move chartData and chartOptions outside the PieChart function
     const chartData = {
-      series: [75, 10, 10, 5],
-      labels: ['Present', 'Absent', 'Late', 'Work From Home'],
+      series: [70, 10, 5, 15],
+      labels: ['appleAS', 'Absent', 'Late', 'Work From Home'],
     };
   
     const chartOptions = {
       colors: ['#008000', '#FF0000', '#FFA500', '#FFFF00'],
       title: {
-        text: 'Work Report',
+        text: 'Top Vendors',
       },
     };
 
@@ -89,7 +89,7 @@ const DashBoard3Chart = () => {
         {/* Your content for the first column */}
         <div className="bg-white shadow-lg border border-gray-200 p-4 rounded-lg">
           <div className="flex flex-col items-center bg-white shadow-lg rounded-lg p-6 w-full max-w-md mx-auto">
-            <h2 className="text-lg font-bold text-indigo-900 mb-4">Productivity Report</h2>
+            <h2 className="text-lg font-bold text-indigo-900 mb-4">Sales Report</h2>
             <div className="w-full">
               <Line data={data} options={options} />
             </div>
