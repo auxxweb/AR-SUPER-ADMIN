@@ -33,16 +33,16 @@ function Header({ toggleSidebar }) {
       <input
           type="text"
           placeholder="Search..."
-          className="p-2 rounded-l-md border border-[#F7CA7C] focus:outline-none bg-[#F7CA7C] text-white placeholder-white"
+          className="p-2 rounded-l-md border border-[#F39B00] focus:outline-none bg-[#F7CA7C] text-white placeholder-white"
         />
 
-        <button className="flex items-center p-3 bg-[#F7CA7C] text-white rounded-r-md">
+        <button className="flex items-center p-3 bg-[#F39B00] text-white rounded-r-md">
           <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.975 13.8438C16.2563 14.1562 16.2563 14.625 15.9438 14.9062L15.0688 15.7812C14.7875 16.0938 14.3188 16.0938 14.0063 15.7812L10.9125 12.6875C10.7563 12.5312 10.6938 12.3438 10.6938 12.1562V11.625C9.56875 12.5 8.19375 13 6.69375 13C3.1 13 0.19375 10.0938 0.19375 6.5C0.19375 2.9375 3.1 0 6.69375 0C10.2563 0 13.1938 2.9375 13.1938 6.5C13.1938 8.03125 12.6625 9.40625 11.8188 10.5H12.3188C12.5063 10.5 12.6938 10.5938 12.85 10.7188L15.975 13.8438ZM6.69375 10.5C8.88125 10.5 10.6938 8.71875 10.6938 6.5C10.6938 4.3125 8.88125 2.5 6.69375 2.5C4.475 2.5 2.69375 4.3125 2.69375 6.5C2.69375 8.71875 4.475 10.5 6.69375 10.5Z" fill="white"/>
           </svg>
         </button>
 
-        <button className="flex bg-[#F7CA7C] text-white rounded-md items-center p-2 ml-4">
+        <button className="flex bg-[#F39B00] text-white rounded-md items-center p-2 ml-4">
           <svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M7.66667 19.6667V21C7.66667 22.0609 8.08809 23.0783 8.83824 23.8284C9.58839 24.5786 10.6058 25 11.6667 25C12.7275 25 13.745 24.5786 14.4951 23.8284C15.2452 23.0783 15.6667 22.0609 15.6667 21V19.6667M9 3.66667C9 2.95942 9.28095 2.28115 9.78105 1.78105C10.2811 1.28095 10.9594 1 11.6667 1C12.3739 1 13.0522 1.28095 13.5523 1.78105C14.0524 2.28115 14.3333 2.95942 14.3333 3.66667C15.8645 4.3907 17.1699 5.51777 18.1094 6.92707C19.0489 8.33636 19.5873 9.97476 19.6667 11.6667V15.6667C19.767 16.4956 20.0606 17.2894 20.5238 17.9842C20.9869 18.6789 21.6068 19.2552 22.3333 19.6667H1C1.72658 19.2552 2.34641 18.6789 2.80958 17.9842C3.27275 17.2894 3.56633 16.4956 3.66667 15.6667V11.6667C3.74608 9.97476 4.2844 8.33636 5.22393 6.92707C6.16347 5.51777 7.46879 4.3907 9 3.66667Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>

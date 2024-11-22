@@ -574,29 +574,23 @@ function Sidebar({ isOpen, setIsOpen }) {
               height="21"
               viewBox="0 0 22 21"
               fill={
-                location?.pathname?.split("/")[1] === ""
-                  ? "#F39B00"
-                  : "currentColor"
-              }
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M16 13V9h3V5l-5-4-5 4v4h3v4h-3v4h5v-4h-3zm-4 6v-2h-4v2h4z"
-                fill={
-                  location?.pathname?.split("/")[1] === ""
+                  location?.pathname?.split("/")[1] === "fgb"
                     ? "#F39B00"
                     : "currentColor"
                 }
-              />
+              xmlns="http://www.w3.org/2000/svg">
+               <path d="M16 13V9h3V5l-5-4-5 4v4h3v4h-3v4h5v-4h-3zm-4 6v-2h-4v2h4z" fill={
+                  location?.pathname?.split("/")[1] === "fgb"
+                    ? "#F39B00"
+                    : "currentColor"
+                }/>
             </svg>
 
-            <span
-              className={`text-custom-16 hover:text-[#F39B00] ml-4 ${
-                location?.pathname?.split("/")[1] === ""
-                  ? "text-[#F39B00]"
-                  : "text-[#909294]"
-              }`}>
-              Logout
-            </span>
+            <span className={`text-custom-16 hover:text-[#F39B00] ml-4 ${
+            location?.pathname?.split("/")[1] === "dgbd"
+              ? "text-[#F39B00]"
+              : "text-[#909294]"
+          }`}>Logout</span>
           </span>
         </div>
       </div>
