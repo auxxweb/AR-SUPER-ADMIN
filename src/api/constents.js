@@ -281,53 +281,159 @@ export const paymentDatas = [
     date: "20-11-2024",
     expiry: "19-11-2025",
     status: "Failed"
-  },
+  }
 ];
 
-export const reportData =[
+export const reportData = [
   {
-    vendor:"Vendor 1",
-    image: "https://media.gettyimages.com/id/1299077582/photo/positivity-puts-you-in-a-position-of-power.jpg?s=612x612&w=gi&k=20&c=xBZQF30WrZt9HWBKseqwDmKotwJGWe8jkEI9cajC1RM=",
-    vendorId:"AROD0002",
-    totalOrder:243,
-    mostCategory:"Biriyani",
-    mostMenu:"Chicken Biriyani",
-    totalSales:50000
+    vendor: "Vendor 1",
+    image:
+      "https://media.gettyimages.com/id/1299077582/photo/positivity-puts-you-in-a-position-of-power.jpg?s=612x612&w=gi&k=20&c=xBZQF30WrZt9HWBKseqwDmKotwJGWe8jkEI9cajC1RM=",
+    vendorId: "AROD0002",
+    totalOrder: 243,
+    mostCategory: "Biriyani",
+    mostMenu: "Chicken Biriyani",
+    totalSales: 50000
   },
   {
-    vendor:"Vendor 1",
-    image: "https://media.gettyimages.com/id/1299077582/photo/positivity-puts-you-in-a-position-of-power.jpg?s=612x612&w=gi&k=20&c=xBZQF30WrZt9HWBKseqwDmKotwJGWe8jkEI9cajC1RM=",
-    vendorId:"AROD0002",
-    totalOrder:243,
-    mostCategory:"Biriyani",
-    mostMenu:"Chicken Biriyani",
-    totalSales:50000
+    vendor: "Vendor 1",
+    image:
+      "https://media.gettyimages.com/id/1299077582/photo/positivity-puts-you-in-a-position-of-power.jpg?s=612x612&w=gi&k=20&c=xBZQF30WrZt9HWBKseqwDmKotwJGWe8jkEI9cajC1RM=",
+    vendorId: "AROD0002",
+    totalOrder: 243,
+    mostCategory: "Biriyani",
+    mostMenu: "Chicken Biriyani",
+    totalSales: 50000
   },
   {
-    vendor:"Vendor 1",
-    image: "https://media.gettyimages.com/id/1299077582/photo/positivity-puts-you-in-a-position-of-power.jpg?s=612x612&w=gi&k=20&c=xBZQF30WrZt9HWBKseqwDmKotwJGWe8jkEI9cajC1RM=",
-    vendorId:"AROD0002",
-    totalOrder:243,
-    mostCategory:"Biriyani",
-    mostMenu:"Chicken Biriyani",
-    totalSales:50000
+    vendor: "Vendor 1",
+    image:
+      "https://media.gettyimages.com/id/1299077582/photo/positivity-puts-you-in-a-position-of-power.jpg?s=612x612&w=gi&k=20&c=xBZQF30WrZt9HWBKseqwDmKotwJGWe8jkEI9cajC1RM=",
+    vendorId: "AROD0002",
+    totalOrder: 243,
+    mostCategory: "Biriyani",
+    mostMenu: "Chicken Biriyani",
+    totalSales: 50000
   },
   {
-    vendor:"Vendor 1",
-    image: "https://media.gettyimages.com/id/1299077582/photo/positivity-puts-you-in-a-position-of-power.jpg?s=612x612&w=gi&k=20&c=xBZQF30WrZt9HWBKseqwDmKotwJGWe8jkEI9cajC1RM=",
-    vendorId:"AROD0002",
-    totalOrder:243,
-    mostCategory:"Biriyani",
-    mostMenu:"Chicken Biriyani",
-    totalSales:50000
+    vendor: "Vendor 1",
+    image:
+      "https://media.gettyimages.com/id/1299077582/photo/positivity-puts-you-in-a-position-of-power.jpg?s=612x612&w=gi&k=20&c=xBZQF30WrZt9HWBKseqwDmKotwJGWe8jkEI9cajC1RM=",
+    vendorId: "AROD0002",
+    totalOrder: 243,
+    mostCategory: "Biriyani",
+    mostMenu: "Chicken Biriyani",
+    totalSales: 50000
   },
   {
-    vendor:"Vendor 1",
-    image: "https://media.gettyimages.com/id/1299077582/photo/positivity-puts-you-in-a-position-of-power.jpg?s=612x612&w=gi&k=20&c=xBZQF30WrZt9HWBKseqwDmKotwJGWe8jkEI9cajC1RM=",
-    vendorId:"AROD0002",
-    totalOrder:243,
-    mostCategory:"Biriyani",
-    mostMenu:"Chicken Biriyani",
-    totalSales:50000
+    vendor: "Vendor 1",
+    image:
+      "https://media.gettyimages.com/id/1299077582/photo/positivity-puts-you-in-a-position-of-power.jpg?s=612x612&w=gi&k=20&c=xBZQF30WrZt9HWBKseqwDmKotwJGWe8jkEI9cajC1RM=",
+    vendorId: "AROD0002",
+    totalOrder: 243,
+    mostCategory: "Biriyani",
+    mostMenu: "Chicken Biriyani",
+    totalSales: 50000
+  }
+];
+
+export const MenuData = [
+  {
+    name: "Margherita Pizza",
+    image:
+      "https://media.istockphoto.com/id/520410807/photo/cheeseburger.jpg?s=612x612&w=0&k=20&c=fG_OrCzR5HkJGI8RXBk76NwxxTasMb1qpTVlEM0oyg4=",
+    threeDImage:
+      "https://static.vecteezy.com/system/resources/previews/021/866/056/non_2x/hamburger-on-black-background-realistic-3d-illustration-generative-ai-free-photo.jpg",
+    description:
+      "Classic Italian pizza with tomato sauce, mozzarella, and fresh basil.",
+    price: 12.99,
+    category: "Main Course",
+    ingredients: "Tomato Sauce, Mozzarella Cheese, Fresh Basil, Pizza Dough",
+    nutritionalInformation: {
+      calories: 300,
+      protein: "12g",
+      carbs: "36g",
+      fat: "10g"
+    },
+    type: "Vegetarian",
+    allergenInformation: "Gluten, Dairy",
+    cookingTime: "15 minutes",
+    restaurant: "Pizzeria Roma",
+    offers: "Buy 1 Get 1 Free on Mondays",
+    status: true
   },
-]
+  {
+    name: "Margherita Pizza",
+    image:
+      "https://media.istockphoto.com/id/520410807/photo/cheeseburger.jpg?s=612x612&w=0&k=20&c=fG_OrCzR5HkJGI8RXBk76NwxxTasMb1qpTVlEM0oyg4=",
+    threeDImage:
+      "https://static.vecteezy.com/system/resources/previews/021/866/056/non_2x/hamburger-on-black-background-realistic-3d-illustration-generative-ai-free-photo.jpg",
+    description:
+      "Classic Italian pizza with tomato sauce, mozzarella, and fresh basil.",
+    price: 12.99,
+    category: "Main Course",
+    ingredients: "Tomato Sauce, Mozzarella Cheese, Fresh Basil, Pizza Dough",
+    nutritionalInformation: {
+      calories: 300,
+      protein: "12g",
+      carbs: "36g",
+      fat: "10g"
+    },
+    type: "Vegetarian",
+    allergenInformation: "Gluten, Dairy",
+    cookingTime: "15 minutes",
+    restaurant: "Pizzeria Roma",
+    offers: "Buy 1 Get 1 Free on Mondays",
+    status: false,
+    isAr:true
+  },
+  {
+    name: "Margherita Pizza",
+    image:
+      "https://media.istockphoto.com/id/520410807/photo/cheeseburger.jpg?s=612x612&w=0&k=20&c=fG_OrCzR5HkJGI8RXBk76NwxxTasMb1qpTVlEM0oyg4=",
+    threeDImage:
+      "https://static.vecteezy.com/system/resources/previews/021/866/056/non_2x/hamburger-on-black-background-realistic-3d-illustration-generative-ai-free-photo.jpg",
+    description:
+      "Classic Italian pizza with tomato sauce, mozzarella, and fresh basil.",
+    price: 12.99,
+    category: "Main Course",
+    ingredients: "Tomato Sauce, Mozzarella Cheese, Fresh Basil, Pizza Dough",
+    nutritionalInformation: {
+      calories: 300,
+      protein: "12g",
+      carbs: "36g",
+      fat: "10g"
+    },
+    type: "Vegetarian",
+    allergenInformation: "Gluten, Dairy",
+    cookingTime: "15 minutes",
+    restaurant: "Pizzeria Roma",
+    offers: "Buy 1 Get 1 Free on Mondays",
+    status: true
+  },
+  {
+    name: "Margherita Pizza",
+    image:
+      "https://media.istockphoto.com/id/520410807/photo/cheeseburger.jpg?s=612x612&w=0&k=20&c=fG_OrCzR5HkJGI8RXBk76NwxxTasMb1qpTVlEM0oyg4=",
+    threeDImage:
+      "https://static.vecteezy.com/system/resources/previews/021/866/056/non_2x/hamburger-on-black-background-realistic-3d-illustration-generative-ai-free-photo.jpg",
+    description:
+      "Classic Italian pizza with tomato sauce, mozzarella, and fresh basil.",
+    price: 12.99,
+    category: "Main Course",
+    ingredients: "Tomato Sauce, Mozzarella Cheese, Fresh Basil, Pizza Dough",
+    nutritionalInformation: {
+      calories: 300,
+      protein: "12g",
+      carbs: "36g",
+      fat: "10g"
+    },
+    type: "Vegetarian",
+    allergenInformation: "Gluten, Dairy",
+    cookingTime: "15 minutes",
+    restaurant: "Pizzeria Roma",
+    offers: "Buy 1 Get 1 Free on Mondays",
+    status: false,
+    isAr:true
+  },
+];

@@ -21,7 +21,7 @@ import TermsAndConditions from "../pages/TermsAndConditions";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
 import ReportTable from "../pages/ReportTable";
 import ReportPage from "../pages/ReportTable";
-
+import MenuPage from "../pages/MenuPage";
 
 function ContentArea() {
   return (
@@ -29,6 +29,7 @@ function ContentArea() {
       {" "}
       {/* Use Routes to define all your app routes */}
       <Route path="/" element={<DashBoard />} />
+      <Route path="/menu" element={<MenuPage   />} />
       <Route path="/allemployees" element={<AllEmployees />} />
       <Route path="/plans" element={<AllEmployees />} />
       <Route path="/leaves" element={<Leaves />} />
