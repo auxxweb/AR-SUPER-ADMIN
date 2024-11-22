@@ -35,7 +35,7 @@ const PaymentPage = () => {
           <span className="flex items-center">
             <span
               className="bg-[#0EB599] text-white rounded-full p-3 cursor-pointer"
-              onClick={toggleModal}
+              // onClick={toggleModal}
             >
               + Add Category
             </span>

@@ -18,7 +18,8 @@ const Clients = () => {
           <span className="flex items-center">
             <span
               className="bg-[#F39B00] text-white rounded-full p-3 cursor-pointer"
-              onClick={toggleModal}>
+              // onClick={toggleModal}
+              >
               + Add Vendors
             </span>
 

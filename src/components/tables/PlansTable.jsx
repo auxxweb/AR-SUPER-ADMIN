@@ -48,7 +48,17 @@ const PlansTable = () => {
                               <td className="px-4 py-2 border-r border-gray-400">{employee.amount}-year</td>
                               <td className="px-4 py-2 border-r border-gray-400">{employee.validity}</td>
                               <td className="px-4 py-2 border-r border-gray-400">
-                                <span className="inline-block rounded-full p-2 border border-gray-400 text-sm w-[145px] text-center">
+                              <span
+                  style={{
+                    border: `solid 2px ${employee?.status ? 'green' : 'red'}`,
+                    backgroundColor: ` ${
+                      employee?.status
+                        ? 'rgba(0, 255, 0, 0.5)'
+                        : 'rgba(255, 0, 0, 0.5)'
+                    }`,
+                  }}
+                  className="inline-block rounded-full p-2 border border-gray-400 text-sm w-[145px] text-center"
+                >
                                   {employee.status ? "Active":"Blocked"}
                                 </span>
                               </td>

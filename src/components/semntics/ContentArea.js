@@ -37,13 +37,13 @@ function ContentArea() {
       <Route path="/vendors" element={<Clients />} />
       <Route path="/clientsdetails" element={<ClientDetails />} />
       {/* <Route path="/detailedprojectpage" element={<ProjectDetailedPage />} /> */}
-      <Route path="/projetspage" element={<PaymentPage />} />
+      <Route path="/category" element={<PaymentPage />} />
       <Route path="/paymentData" element={<PaymentDetails />} />
       {/* <Route path="/payslip" element={<PaySlip />} /> */}
       <Route path="/subscription" element={<Subscription />} />
       {/* <Route path="/department" element={<Department />} /> */}
       {/* <Route path="/designation" element={<Designation />} /> */}
-      <Route path="/settingandconfi" element={<TermsAndConditions />} />
+      <Route path="terms" element={<TermsAndConditions />} />
       <Route path="/settings" element={<SettingAndConfi />} />
       {/* <Route path="/developerdetails" element={<DeveloperDetails />} /> */}
       <Route path="/privacy" element={<PrivacyPolicy />} />
